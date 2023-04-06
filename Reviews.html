@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="leftAlignment">
+        <button onclick="home()">Home</button>
+        <button onclick="services()">Services</button>
+        <button onclick="market()">Market</button>
+        <button>Dine In</button>
+        <button>Hello5</button>
+        <button onclick="review()">FeedBack</button>
+        <button onclick="game()">Fun Game</button>
+        <button onclick="about()">About Us</button>
+    </div>
+    <div class="rightAlignment"> 
+        <h1 class="welcomeHeading">Feedback</h1>
+        <div class="methods"></div>
+
+        <form style="margin-top: 15vh;" action="">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <input type="submit" value="Submit">
+        </form>
+
+        <p>            
+            Welcome <?php echo $_POST["fname"]; ?><br>
+            Your email address is: <?php echo $_POST["email"]; ?>
+        </p>
+    </div>
+    
+</body>
+</html>
+
+

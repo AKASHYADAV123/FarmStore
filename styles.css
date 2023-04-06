@@ -1,0 +1,189 @@
+.leftAlignment{
+    position: fixed;    
+    background-color: rgb(85, 213, 181);
+    float: left;
+    width: 18vw;
+    height: 88vh;
+    padding-left: 2vw;
+    padding-top: 5%;
+}
+button{
+    height: 7vh;
+    width: 15vw;
+    margin-top: 2vh;
+    background-color: rgb(234, 119, 37);
+}
+button:hover {
+    cursor: pointer;
+}
+
+a{
+    padding: 7vh;
+    width: 25vw;
+    margin-top: 2vh;
+    background-color: rgb(234, 119, 37);
+}
+
+.rightAlignment{
+    background-color: rgb(222, 249, 210);
+    float: right;
+    /* height: 100vh; */
+    height: auto;
+    width: 77vw;   
+}
+
+.welcomeHeading{
+    position: fixed;  
+    overflow: hidden;
+    z-index: 100;
+    background-color: rgb(64, 151, 77);
+    color: rgb(254, 186, 118);
+    height: 10vh;
+    width: 77vw;
+    margin-top: 0%;
+    text-align: center;
+    font-weight: 800;
+    font-size:50px;
+    font-family:Georgia,'Times New Roman',Times, serif;
+}
+
+.welcomeImage{   
+    height: auto;
+    width: 77vw;
+    margin-top: 10vh;
+}
+
+/* .step1 {
+    margin-top: 10vh;
+    height: 80vh;
+    display: flex;
+    width: 77vw;
+}
+.step2 {
+    display: flex;
+    height: 29vh;
+    background-color: yellow;
+    width: 77vw;
+}
+.step3 {
+    display: flex;
+    height: 30vh;
+    background-color: green;
+    width: 77vw;
+}
+.stepLeft{
+    height: 29vh;
+    width: 17vw;
+    background-color: aqua;
+}
+.stepRight{
+    height: 29vh;
+    width: auto;
+    background-color: rgb(255, 0, 72);
+}
+.rightImage{
+    height:80vh;
+    width:60vw;
+    background: transparent no-repeat center;
+    background-size: cover;
+    width: 77vw;
+} */
+
+.methods{
+    background-color: brown;
+}
+.methodImage{
+    width: 77vw;
+    height:auto;
+}
+.methodHeading{
+    position: relative;
+    top: 5vh;
+    height: 10vh;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Georgia,'Times New Roman',Times, serif;
+}
+.space{
+    margin-top: 10vh;
+}
+.space2{
+    margin-top: 90px;
+}
+
+.round{
+    height:40vh;
+    width:40vh;
+    background-color: blue;
+    border-radius: 50%;
+    z-index: +10;
+}
+.rectangle{
+    margin-left: -10vw;
+    margin-right: 2vw;
+    height:40vh;
+    width:72vw;
+    background-color: rgb(190, 130, 101);
+    border-radius: 20px;
+    padding-right: 2vw;
+}
+/* .roundRight{
+    margin-right: -0vw;
+    float: right;
+    height:40vh;
+    width:40vh;
+    background-color: blue;
+    border-radius: 50%;
+    z-index: +10;
+}
+.rectangleRight{
+    height:40vh;
+    width:60vw;
+    z-index: -10;
+    padding-right: 10vw;
+    background-color: rgb(255, 81, 0);
+} */
+.flex{
+    display: flex;
+    margin-left: 2vw;
+}
+.rectangleText{
+    margin-left: 15vw !important;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(8, 16, 5, 0.914);
+}
+
+.contact{
+    background-color: rgb(222, 249, 210);
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+}
+.contactBox{
+    height: 40vh;
+    width: 25vw;
+    background-color: rgb(134, 163, 163);
+    text-align: center;
+    /* display: flex; */
+
+}
+.spaceBar{
+    height: 40vh;
+    width:1vw;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.boxImage{
+    width: 25vw;
+    height: 40vh;
+}

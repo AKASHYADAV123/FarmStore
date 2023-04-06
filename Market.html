@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+        <title>Market</title>
+    </head>
+    <body>      
+        <div class="leftAlignment">
+            <button onclick="home()">Home</button>
+            <button onclick="services()">Services</button>
+            <button onclick="market()">Market</button>
+            <button>Dine In</button>
+            <button>Hello5</button>
+            <button onclick="review()">FeedBack</button>
+            <button onclick="game()">Fun Game</button>
+            <button onclick="about()">About Us</button>
+        </div>
+        
+        <div class="rightAlignment">
+            <script src="Market.js"></script>
+            <h1 class="welcomeHeading">Market</h1>
+            <div class="space">*</div>
+            <div class="contact">
+                <form name="basket" style="display: flex; " action="" method="post">
+                    <div class="contactBox">
+                        <img class="boxImage" src="8.jpg" alt="">
+                        <!-- <input type="text" value="Brinjal"> -->
+                        <label for="b1">Brinjal</label>
+                        <input class="fruit" style="width: 2vw;" min="0" type="number" id="b1">
+                    </div>
+
+                    
+                    <div style="margin-left: 1vw;" class="contactBox">
+                        <img class="boxImage" src="9.jpg" alt="">
+                        <!-- <input type="text" value="Apple"> -->
+                        <label for="b1">Apple</label>
+                        <input class="fruit" style="width: 2vw;" min="0" type="number" id="b2">
+                    </div>
+                </form>
+
+                
+                <div class="contactBox">
+                    <img class="boxImage" src="8.jpg" alt="">
+                    <input type="button" value="-">
+                    <input type="text" value="Banana">
+                    <input type="button" value="+">
+                </div>
+            </div>
+
+            <p>                    
+                <input type="submit" onclick="check()" value="Submit">
+            </p>
+
+            <input style="margin-top: 5vh; margin-left: 10vw;" type="button" value="Cart">
+            <p id="result"></p>
+
+            <div class="space"></div>
+            <div class="contact">
+                <div class="contactBox"></div>
+                <div class="contactBox"></div>
+                <div class="contactBox"></div>
+            </div>
+            <div class="space"></div>
+            <div class="contact">
+                <div class="contactBox"></div>
+                <div class="contactBox"></div>
+                <div class="contactBox"></div>
+            </div>
+            
+        </div>
+
+        
+
+        <!-- <div class="contact">
+            <div class="contactBox">
+            </div>
+        </div> -->
+
+    </body>
+</html>
